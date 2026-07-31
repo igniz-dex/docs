@@ -1,4 +1,4 @@
-> For the complete documentation index, see [llms.txt](https://igniz.gitbook.io/igniz-docs/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://igniz.gitbook.io/igniz-docs/igniz-trade/fund-safety.md).
+> For the complete documentation index, see [llms.txt](llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](igniz-trade/fund-safety.md).
 
 # Fund Safety
 
@@ -12,7 +12,7 @@ Key implications of this model:
 
 * **No KYC required.** Trading access is gated only by a wallet connection, not by identity verification.
 * **Signature-based order placement.** Once you enable trading, orders are authorized by cryptographic signatures from your own wallet rather than by a custodial account login.
-* **Trustless withdrawals.** Withdrawals execute directly through smart contract logic rather than through a manual, platform-approved payout process. See [Deposit and Withdrawal](https://igniz.gitbook.io/igniz-docs/deposit-and-withdrawal.md) for the step-by-step flow.
+* **Trustless withdrawals.** Withdrawals execute directly through smart contract logic rather than through a manual, platform-approved payout process. See [Deposit and Withdrawal](deposit-and-withdrawal.md) for the step-by-step flow.
 
 ### Execution-Integrity Safeguards <a href="#execution-integrity-safeguards" id="execution-integrity-safeguards"></a>
 
@@ -22,17 +22,17 @@ Alongside the non-custodial model, Igniz applies safeguards designed to protect 
 * **Deterministic pre-confirmation.** Where the platform surfaces figures such as estimated liquidation price ahead of a trade, these are computed deterministically from your inputs so you can review expected outcomes before confirming.
 * **Duplicate-submission protection.** Safeguards are in place to prevent the same order or transaction request from being processed more than once, reducing the risk of accidental double-execution.
 
-> Note: These safeguards protect the integrity of the trading and settlement process; they do not substitute for the self-custody responsibilities described below, and they do not eliminate market risk. See [Risks](https://igniz.gitbook.io/igniz-docs/risks.md) for a fuller discussion of trading and platform risk.
+> Note: These safeguards protect the integrity of the trading and settlement process; they do not substitute for the self-custody responsibilities described below, and they do not eliminate market risk. See [Risks](risks.md) for a fuller discussion of trading and platform risk.
 
 ### Your Self-Custody Responsibility <a href="#your-self-custody-responsibility" id="your-self-custody-responsibility"></a>
 
 Because Igniz is non-custodial, the security of your funds ultimately depends on the security of your wallet credentials — Igniz has no ability to recover funds on your behalf if your keys are lost or compromised.
 
-* If you connect an external wallet (MetaMask, WalletConnect, OKX Wallet, etc.), protect your recovery phrase and never share it with anyone. See [Wallet Backup](https://igniz.gitbook.io/igniz-docs/quick-start-guide/wallet-backup.md).
+* If you connect an external wallet (MetaMask, WalletConnect, OKX Wallet, etc.), protect your recovery phrase and never share it with anyone. See [Wallet Backup](quick-start-guide/wallet-backup.md).
 * Anyone who obtains your recovery phrase or private key has full control over the associated assets. Store these credentials offline and never enter them on untrusted sites or applications.
 
 ### Related Pages <a href="#related-pages" id="related-pages"></a>
 
-* [Deposit and Withdrawal](https://igniz.gitbook.io/igniz-docs/deposit-and-withdrawal.md)
-* [Wallet Backup](https://igniz.gitbook.io/igniz-docs/quick-start-guide/wallet-backup.md)
-* [Risks](https://igniz.gitbook.io/igniz-docs/risks.md)
+* [Deposit and Withdrawal](deposit-and-withdrawal.md)
+* [Wallet Backup](quick-start-guide/wallet-backup.md)
+* [Risks](risks.md)

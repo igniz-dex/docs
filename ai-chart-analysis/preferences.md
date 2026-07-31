@@ -1,4 +1,4 @@
-> For the complete documentation index, see [llms.txt](https://igniz.gitbook.io/igniz-docs/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/preferences.md).
+> For the complete documentation index, see [llms.txt](llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](ai-chart-analysis/preferences.md).
 
 # AI Chart Analysis — Preferences
 
@@ -39,7 +39,7 @@ You can drop back to a lighter view at any time:
 Simplify this.
 ```
 
-This removes secondary information while keeping the primary analysis, and it's handled instantly — no round trip to the AI planner is needed (see [Chart Behavior](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/chart-behavior.md)).
+This removes secondary information while keeping the primary analysis, and it's handled instantly — no round trip to the AI planner is needed (see [Chart Behavior](ai-chart-analysis/chart-behavior.md)).
 
 ### Inferred Preferences <a href="#inferred-preferences" id="inferred-preferences"></a>
 

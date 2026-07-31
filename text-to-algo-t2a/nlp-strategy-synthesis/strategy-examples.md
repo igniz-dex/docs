@@ -1,4 +1,4 @@
-> For the complete documentation index, see [llms.txt](https://igniz.gitbook.io/igniz-docs/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/nlp-strategy-synthesis/strategy-examples.md).
+> For the complete documentation index, see [llms.txt](llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](text-to-algo-t2a/nlp-strategy-synthesis/strategy-examples.md).
 
 # Strategy Examples
 
@@ -61,4 +61,4 @@ This page catalogs common trader and algo concepts, and how each maps onto T2A's
 
 ---
 
-Every pattern above is built purely from the indicators, structure events, and conditions described across the T2A documentation — none require custom code. For the full catalog of building blocks, see [Indicators & Market Data](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/nlp-strategy-synthesis/indicators-and-market-data.md) and [Conditions & Trading Signals](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/nlp-strategy-synthesis/conditions-and-trading-signals.md); for the exact platform limits, see [Limitations & Technical Reference](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/nlp-strategy-synthesis/limitations-and-technical-reference.md).
+Every pattern above is built purely from the indicators, structure events, and conditions described across the T2A documentation — none require custom code. For the full catalog of building blocks, see [Indicators & Market Data](text-to-algo-t2a/nlp-strategy-synthesis/indicators-and-market-data.md) and [Conditions & Trading Signals](text-to-algo-t2a/nlp-strategy-synthesis/conditions-and-trading-signals.md); for the exact platform limits, see [Limitations & Technical Reference](text-to-algo-t2a/nlp-strategy-synthesis/limitations-and-technical-reference.md).

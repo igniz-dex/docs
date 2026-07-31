@@ -1,8 +1,8 @@
-> For the complete documentation index, see [llms.txt](https://igniz.gitbook.io/igniz-docs/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/data-contracts.md).
+> For the complete documentation index, see [llms.txt](llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](ai-chart-analysis/data-contracts.md).
 
 # AI Chart Analysis — Data Contracts
 
-This page is for the curious: it shows the actual shape of what passes between the AI planner and the deterministic engine. You'll never need to write this JSON by hand, but seeing it makes the [Architecture](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/architecture.md) split concrete — every field either comes from you, from the AI's interpretation of your intent, or from the engine's own calculation, and the contract makes clear which is which.
+This page is for the curious: it shows the actual shape of what passes between the AI planner and the deterministic engine. You'll never need to write this JSON by hand, but seeing it makes the [Architecture](ai-chart-analysis/architecture.md) split concrete — every field either comes from you, from the AI's interpretation of your intent, or from the engine's own calculation, and the contract makes clear which is which.
 
 ### The Analysis Plan <a href="#the-analysis-plan" id="the-analysis-plan"></a>
 
@@ -135,7 +135,7 @@ The engine's response is what the UI renders directly — nothing about what app
 A few contract details that matter directly to how the feature behaves on-screen:
 
 - **Confirmation grades** are `weak`, `moderate`, or `strong` — computed by counting passed criteria against per-type rules. The UI shows the grade, and tapping it reveals the full criteria table (each with its own measured value and threshold). The word "confidence" and 0–1 probability scores never appear anywhere in this contract.
-- Every evaluation carries an explicit, machine-readable **`invalidation`** rule, which is what lets the UI transition an object's state live, without calling the AI again (see [Chart Behavior](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/chart-behavior.md)).
+- Every evaluation carries an explicit, machine-readable **`invalidation`** rule, which is what lets the UI transition an object's state live, without calling the AI again (see [Chart Behavior](ai-chart-analysis/chart-behavior.md)).
 - **Stable IDs** appear on every structure, drawing, indicator, and evaluation. A rerun in the same session reuses IDs for anything the engine considers "the same structure," and those IDs remain valid `object_reference` targets for your next refinement.
 - The UI never places a drawing based on free-form AI text — only on this structured result.
 
@@ -146,4 +146,4 @@ Plans, results, saved snapshots, and saved recipes all carry a `schema_version`,
 - The engine maintains migration adapters for at least the two previous minor schema versions.
 - A recipe on a migratable older version runs transparently and is upgraded automatically the next time it's saved.
 - If a recipe's version can't be migrated, the rerun fails gracefully with a specific message — *"This recipe uses analysis parameters that no longer exist"* — and offers to rebuild the recipe from its stored intent text.
-- Saved snapshots are immutable and always renderable: reopening one depends only on its stored coordinates, never on current engine behavior, so old snapshots keep working exactly as saved (see [Editing & Reuse](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/editing-and-reuse.md)).
+- Saved snapshots are immutable and always renderable: reopening one depends only on its stored coordinates, never on current engine behavior, so old snapshots keep working exactly as saved (see [Editing & Reuse](ai-chart-analysis/editing-and-reuse.md)).

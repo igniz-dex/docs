@@ -1,12 +1,12 @@
-> For the complete documentation index, see [llms.txt](https://igniz.gitbook.io/igniz-docs/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/paper-trading.md).
+> For the complete documentation index, see [llms.txt](llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](text-to-algo-t2a/paper-trading.md).
 
 # Paper Trading
 
 Paper trading lets you run any T2A strategy **live, against real, real-time market data**, with every fill, fee, funding payment, and liquidation fully simulated — no real orders reach the exchange, and no real wallet is ever touched. It's the natural third step in the T2A workflow:
 
-1. **Generate & Backtest** — describe a strategy in plain English, then check how it would have performed against up to two years of real historical data. See [Backtesting](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/backtesting.md).
+1. **Generate & Backtest** — describe a strategy in plain English, then check how it would have performed against up to two years of real historical data. See [Backtesting](text-to-algo-t2a/backtesting.md).
 2. **Paper Trade** — run the strategy for real, right now, watching the live market, with a virtual balance standing in for real capital.
-3. **Go Live** — flip the same strategy to real execution once it has proven itself, with zero changes to its logic. See [Live Activation](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/live-activation.md).
+3. **Go Live** — flip the same strategy to real execution once it has proven itself, with zero changes to its logic. See [Live Activation](text-to-algo-t2a/live-activation.md).
 
 Where backtesting answers *"how would this have done historically?"*, paper trading answers a different and equally important question: *"is this strategy's logic sound, and does it behave the way I expect, against the market as it is happening right now?"* It catches things a historical replay can't — a strategy that never quite triggers because its condition is subtly too strict, a sizing rule that behaves unexpectedly on the pair's actual current volatility, an entry price that looked fine on paper but the strategy would never actually reach.
 
@@ -72,6 +72,6 @@ Backtesting proves a strategy *would have* worked. Paper trading proves it *does
 
 #### See also <a href="#see-also" id="see-also"></a>
 
-- [Backtesting](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/backtesting.md) — validate a strategy against historical data before paper trading it.
-- [Optimization](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/optimization.md) — search for better settings before proving them out on paper.
-- [Live Activation](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/live-activation.md) — re-launch a paper-proven strategy for real, with zero logic changes.
+- [Backtesting](text-to-algo-t2a/backtesting.md) — validate a strategy against historical data before paper trading it.
+- [Optimization](text-to-algo-t2a/optimization.md) — search for better settings before proving them out on paper.
+- [Live Activation](text-to-algo-t2a/live-activation.md) — re-launch a paper-proven strategy for real, with zero logic changes.

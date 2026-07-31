@@ -1,8 +1,8 @@
-> For the complete documentation index, see [llms.txt](https://igniz.gitbook.io/igniz-docs/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/nlp-strategy-synthesis/conditions-and-trading-signals.md).
+> For the complete documentation index, see [llms.txt](llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](text-to-algo-t2a/nlp-strategy-synthesis/conditions-and-trading-signals.md).
 
 # Conditions & Trading Signals
 
-Indicators and market data (see the [previous page](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/nlp-strategy-synthesis/indicators-and-market-data.md)) are the raw values a strategy reads. This page covers how those values get turned into actual trading signals: comparisons, boolean logic, recognized chart patterns, divergence, and time-based filters.
+Indicators and market data (see the [previous page](text-to-algo-t2a/nlp-strategy-synthesis/indicators-and-market-data.md)) are the raw values a strategy reads. This page covers how those values get turned into actual trading signals: comparisons, boolean logic, recognized chart patterns, divergence, and time-based filters.
 
 ### Comparison Operators <a href="#comparison-operators" id="comparison-operators"></a>
 

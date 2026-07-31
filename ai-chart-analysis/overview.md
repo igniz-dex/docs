@@ -1,4 +1,4 @@
-> For the complete documentation index, see [llms.txt](https://igniz.gitbook.io/igniz-docs/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/overview.md).
+> For the complete documentation index, see [llms.txt](llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](ai-chart-analysis/overview.md).
 
 # AI Chart Analysis — Overview
 
@@ -48,7 +48,7 @@ Behind the plain-English box, three things happen in sequence:
 2. **A deterministic engine executes the plan.** It reads the OHLCV data, calculates indicators, identifies structures, evaluates conditions against named criteria, and works out exact drawing coordinates. The AI never invents a number, a level, or a coordinate — the engine is the only source of truth for anything that appears on your chart.
 3. **The chart is the output.** Drawings, indicators, and structure markers appear directly on the price action, built up step by step so you can see how the analysis was assembled. A short text summary appears alongside the chart — the chart itself carries most of the information, so the text stays brief.
 
-The full mechanics of that pipeline — planning rules, the deterministic engine's responsibilities, and the JSON contracts that connect them — are covered in [Architecture](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/architecture.md) and [Data Contracts](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/data-contracts.md).
+The full mechanics of that pipeline — planning rules, the deterministic engine's responsibilities, and the JSON contracts that connect them — are covered in [Architecture](ai-chart-analysis/architecture.md) and [Data Contracts](ai-chart-analysis/data-contracts.md).
 
 ### What Analysis Mode Is Not <a href="#what-it-is-not" id="what-it-is-not"></a>
 
@@ -67,7 +67,7 @@ AI Chart Analysis is an **analysis and visualization tool** — not a strategy g
 - Repaint a drawing once it is confirmed
 - Modify your chart permanently without your consent
 
-If you already have a complete trading idea you want to turn into a managed, live-running algorithm, that's a separate feature: see [Text-to-Algo (T2A)](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a.md). AI Chart Analysis and T2A intentionally don't overlap — Analysis Mode helps you *see* the chart more clearly; T2A helps you *act* on a fully-specified idea.
+If you already have a complete trading idea you want to turn into a managed, live-running algorithm, that's a separate feature: see [Text-to-Algo (T2A)](text-to-algo-t2a.md). AI Chart Analysis and T2A intentionally don't overlap — Analysis Mode helps you *see* the chart more clearly; T2A helps you *act* on a fully-specified idea.
 
 ### Compliance and Disclaimers <a href="#compliance" id="compliance"></a>
 
@@ -83,13 +83,13 @@ Because objects like target zones, risk maps, and invalidation levels can resemb
 
 | Page | Covers |
 |---|---|
-| [User Flow](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/user-flow.md) | The step-by-step flow from opening Analysis Mode to refining and saving a result |
-| [Analysis Types](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/analysis-types.md) | Recognized keywords, supported analysis types, and automatic selection |
-| [Preferences](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/preferences.md) | Persistent settings, learned preferences, and detail levels |
-| [Architecture](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/architecture.md) | How planning and calculation are split between the AI and the deterministic engine |
-| [Data Contracts](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/data-contracts.md) | The JSON contracts behind every plan and every engine result |
-| [Chart Behavior](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/chart-behavior.md) | What appears on the chart, and the no-repaint drawing state machine |
-| [Editing & Reuse](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/editing-and-reuse.md) | Refining, editing, saving, and rerunning an analysis |
-| [Reliability & Limits](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/reliability-and-limits.md) | Edge-case handling, latency budgets, and success criteria |
+| [User Flow](ai-chart-analysis/user-flow.md) | The step-by-step flow from opening Analysis Mode to refining and saving a result |
+| [Analysis Types](ai-chart-analysis/analysis-types.md) | Recognized keywords, supported analysis types, and automatic selection |
+| [Preferences](ai-chart-analysis/preferences.md) | Persistent settings, learned preferences, and detail levels |
+| [Architecture](ai-chart-analysis/architecture.md) | How planning and calculation are split between the AI and the deterministic engine |
+| [Data Contracts](ai-chart-analysis/data-contracts.md) | The JSON contracts behind every plan and every engine result |
+| [Chart Behavior](ai-chart-analysis/chart-behavior.md) | What appears on the chart, and the no-repaint drawing state machine |
+| [Editing & Reuse](ai-chart-analysis/editing-and-reuse.md) | Refining, editing, saving, and rerunning an analysis |
+| [Reliability & Limits](ai-chart-analysis/reliability-and-limits.md) | Edge-case handling, latency budgets, and success criteria |
 
-For the exchange's other AI surfaces, see [AI Copilot](https://igniz.gitbook.io/igniz-docs/ai-copilot.md) (the in-app conversational assistant) and [Text-to-Algo (T2A)](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a.md) (natural-language strategy creation).
+For the exchange's other AI surfaces, see [AI Copilot](ai-copilot.md) (the in-app conversational assistant) and [Text-to-Algo (T2A)](text-to-algo-t2a.md) (natural-language strategy creation).

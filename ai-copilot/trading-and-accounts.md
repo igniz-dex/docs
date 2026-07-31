@@ -1,4 +1,4 @@
-> For the complete documentation index, see [llms.txt](https://igniz.gitbook.io/igniz-docs/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://igniz.gitbook.io/igniz-docs/ai-copilot/trading-and-accounts.md).
+> For the complete documentation index, see [llms.txt](llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](ai-copilot/trading-and-accounts.md).
 
 # AI Copilot — Trading & Accounts
 
@@ -8,7 +8,7 @@
 - Pull up spot order history — everything that's been filled, cancelled, or expired.
 - Pull up spot trade history — the actual executions, distinct from order status.
 
-> Order placement and cancellation are intentionally reserved for your own direct action or an authorized agent connected via [MCP](https://igniz.gitbook.io/igniz-docs/mcp.md) — never the in-app conversation itself.
+> Order placement and cancellation are intentionally reserved for your own direct action or an authorized agent connected via [MCP](mcp.md) — never the in-app conversation itself.
 
 #### Futures & Perpetuals — Visibility & Risk Monitoring <a href="#futures-and-perpetuals" id="futures-and-perpetuals"></a>
 
