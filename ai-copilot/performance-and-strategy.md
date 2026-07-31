@@ -1,4 +1,4 @@
-> For the complete documentation index, see [llms.txt](https://igniz.gitbook.io/igniz-docs/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://igniz.gitbook.io/igniz-docs/ai-copilot/performance-and-strategy.md).
+> For the complete documentation index, see [llms.txt](/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](/ai-copilot/performance-and-strategy.md).
 
 # AI Copilot — Performance & Strategy
 
@@ -24,6 +24,6 @@ Copilot can help you understand and review strategy testing that's already been 
 - List your full history of past backtests and optimizations.
 - **Preview a strategy's tunable parameter space** — see exactly which numeric settings can be optimized, with sensible ranges, to help plan a run before committing any usage quota.
 
-> Launching a brand-new backtest or optimization job is reserved for the platform's Strategy Lab interface or an authorized agent connected via [MCP](https://igniz.gitbook.io/igniz-docs/mcp.md) — not something Copilot submits directly from a chat conversation. Once a run exists, though, Copilot can pull it up, explain it, and help you decide what to try next.
+> Launching a brand-new backtest or optimization job is reserved for the platform's Strategy Lab interface or an authorized agent connected via [MCP](/mcp.md) — not something Copilot submits directly from a chat conversation. Once a run exists, though, Copilot can pull it up, explain it, and help you decide what to try next.
 
 > *Ask Igniz:* "How's my backtest doing?" · "Explain the results of that optimization run." · "What parameters could I even tune on this strategy?"

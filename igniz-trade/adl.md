@@ -1,4 +1,4 @@
-> For the complete documentation index, see [llms.txt](https://igniz.gitbook.io/igniz-docs/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://igniz.gitbook.io/igniz-docs/igniz-trade/adl.md).
+> For the complete documentation index, see [llms.txt](/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](/igniz-trade/adl.md).
 
 # Auto-Deleveraging (ADL)
 
@@ -6,7 +6,7 @@
 
 Auto-Deleveraging (ADL) is a backstop mechanism that closes out opposing positions when a liquidation cannot otherwise be completed. It exists as a final safety net beneath Igniz's primary liquidation flow, invoked only when neither the order book nor the Insurance Vault can fully absorb a liquidation.
 
-Igniz's standard liquidation process runs in two stages — see [Liquidation Mechanism](https://igniz.gitbook.io/igniz-docs/igniz-trade/liquidation-mechanism.md) for the full detail:
+Igniz's standard liquidation process runs in two stages — see [Liquidation Mechanism](/igniz-trade/liquidation-mechanism.md) for the full detail:
 
 1. **Order book liquidation.** The platform submits a market order for the distressed position to the decentralized order book, letting other participants absorb it at prevailing prices.
 2. **Insurance Vault liquidation.** If order book liquidity is insufficient and equity deteriorates further, the position (or account, in unified collateral mode) transfers to the Insurance Vault.
@@ -44,10 +44,10 @@ If your position is selected for auto-deleveraging:
 * You are notified through the platform's alerting channels that an ADL event affected your position.
 * Any remaining, unaffected portion of your position (if only partially deleveraged) continues to operate normally, subject to the same margin and liquidation rules as before.
 
-Traders who want to reduce ADL exposure can do so indirectly by avoiding sustained, highly leveraged positions on the side of the market where liquidations are concentrated, and by using take-profit/stop-loss automation to manage positions proactively. See [Maintenance Margin](https://igniz.gitbook.io/igniz-docs/igniz-trade/maintenance-margin.md) and [Automated Exit Strategies (TP/SL)](https://igniz.gitbook.io/igniz-docs/igniz-trade/tp-sl.md).
+Traders who want to reduce ADL exposure can do so indirectly by avoiding sustained, highly leveraged positions on the side of the market where liquidations are concentrated, and by using take-profit/stop-loss automation to manage positions proactively. See [Maintenance Margin](/igniz-trade/maintenance-margin.md) and [Automated Exit Strategies (TP/SL)](/igniz-trade/tp-sl.md).
 
 ### Related Pages <a href="#related-pages" id="related-pages"></a>
 
-* [Liquidation Mechanism](https://igniz.gitbook.io/igniz-docs/igniz-trade/liquidation-mechanism.md)
-* [Maintenance Margin](https://igniz.gitbook.io/igniz-docs/igniz-trade/maintenance-margin.md)
-* [Risks](https://igniz.gitbook.io/igniz-docs/risks.md)
+* [Liquidation Mechanism](/igniz-trade/liquidation-mechanism.md)
+* [Maintenance Margin](/igniz-trade/maintenance-margin.md)
+* [Risks](/risks.md)

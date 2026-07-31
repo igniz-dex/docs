@@ -1,4 +1,4 @@
-> For the complete documentation index, see [llms.txt](https://igniz.gitbook.io/igniz-docs/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://igniz.gitbook.io/igniz-docs/igniz-trade/mark-price.md).
+> For the complete documentation index, see [llms.txt](/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](/igniz-trade/mark-price.md).
 
 # Mark Price
 
@@ -6,7 +6,7 @@
 
 The **Mark Price** represents the platform's canonical fair value estimate for each perpetual contract. This price determines margin calculations, liquidation triggers, conditional order execution (take-profit/stop-loss), and unrealized profit/loss accounting.
 
-Whereas the [Index Price](https://igniz.gitbook.io/igniz-docs/igniz-trade/index-price.md) reflects external markets only, the mark price blends that external anchor with Igniz's own live order book and a broader perpetuals aggregate to produce a fair value that is both responsive to local trading and resistant to manipulation.
+Whereas the [Index Price](/igniz-trade/index-price.md) reflects external markets only, the mark price blends that external anchor with Igniz's own live order book and a broader perpetuals aggregate to produce a fair value that is both responsive to local trading and resistant to manipulation.
 
 #### Mark Price Composition <a href="#mark-price-composition" id="mark-price-composition"></a>
 
@@ -68,7 +68,7 @@ The decay constant of 3.0 minutes provides approximately 95% weight on data from
 
 The composite architecture provides multiple layers of manipulation resistance:
 
-1. **External Reference Independence:** The adjusted reference component is anchored to off-platform data (see [Index Price](https://igniz.gitbook.io/igniz-docs/igniz-trade/index-price.md)).
+1. **External Reference Independence:** The adjusted reference component is anchored to off-platform data (see [Index Price](/igniz-trade/index-price.md)).
 2. **Multi-Source Aggregation:** Mark price requires consensus across independent sources
 3. **Median-Based Calculation:** Outlier prices cannot skew the final valuation
 4. **Temporal Smoothing:** EMA components prevent flash manipulation from affecting margins or liquidations

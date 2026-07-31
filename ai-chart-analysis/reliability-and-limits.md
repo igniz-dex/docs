@@ -1,4 +1,4 @@
-> For the complete documentation index, see [llms.txt](https://igniz.gitbook.io/igniz-docs/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/reliability-and-limits.md).
+> For the complete documentation index, see [llms.txt](/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](/ai-chart-analysis/reliability-and-limits.md).
 
 # AI Chart Analysis — Reliability & Limits
 
@@ -50,7 +50,7 @@ Speed is treated as a product requirement, not an afterthought:
 | Planner-based refinement | ≤ 2.5 s at p50 |
 | Live invalidation transitions | ≤ 250 ms after the triggering bar close |
 
-The first detected structure renders as soon as its layer completes — the system never waits for the entire result before it starts drawing, which is why the construction sequence in [Chart Behavior](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/chart-behavior.md) matters for perceived speed as much as total time does. If planning takes longer than expected, you'll see progress states ("interpreting request… detecting structure…") rather than a blank spinner; if the total run exceeds twice the p95 budget, it's cancelled with a retry option.
+The first detected structure renders as soon as its layer completes — the system never waits for the entire result before it starts drawing, which is why the construction sequence in [Chart Behavior](/ai-chart-analysis/chart-behavior.md) matters for perceived speed as much as total time does. If planning takes longer than expected, you'll see progress states ("interpreting request… detecting structure…") rather than a blank spinner; if the total run exceeds twice the p95 budget, it's cancelled with a retry option.
 
 ### Success Criteria <a href="#success-criteria" id="success-criteria"></a>
 

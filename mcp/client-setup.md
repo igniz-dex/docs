@@ -1,8 +1,8 @@
-> For the complete documentation index, see [llms.txt](https://igniz.gitbook.io/igniz-docs/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://igniz.gitbook.io/igniz-docs/mcp/client-setup.md).
+> For the complete documentation index, see [llms.txt](/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](/mcp/client-setup.md).
 
 # MCP — Client Setup
 
-This page walks through connecting an MCP-compatible AI client or agent to Igniz TradingMCP. For background on what TradingMCP is and how its two-tier authorization model works, see [Configuration](https://igniz.gitbook.io/igniz-docs/mcp/configuration.md).
+This page walks through connecting an MCP-compatible AI client or agent to Igniz TradingMCP. For background on what TradingMCP is and how its two-tier authorization model works, see [Configuration](/mcp/configuration.md).
 
 #### Prerequisites <a href="#prerequisites" id="prerequisites"></a>
 
@@ -55,6 +55,6 @@ Once authorized, your MCP client should report a successful connection and list 
 
 | Page | Covers |
 |---|---|
-| [Configuration](https://igniz.gitbook.io/igniz-docs/mcp/configuration.md) | What TradingMCP is, the two-tier authorization model, and the full 54-capability catalog |
-| [Tools](https://igniz.gitbook.io/igniz-docs/mcp/tools.md) | The individual tool catalog available under each scope |
-| [AI Copilot](https://igniz.gitbook.io/igniz-docs/ai-copilot.md) | The in-app, always-on, read-only conversational counterpart to TradingMCP |
+| [Configuration](/mcp/configuration.md) | What TradingMCP is, the two-tier authorization model, and the full 54-capability catalog |
+| [Tools](/mcp/tools.md) | The individual tool catalog available under each scope |
+| [AI Copilot](/ai-copilot.md) | The in-app, always-on, read-only conversational counterpart to TradingMCP |

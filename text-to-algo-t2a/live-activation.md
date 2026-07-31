@@ -1,8 +1,8 @@
-> For the complete documentation index, see [llms.txt](https://igniz.gitbook.io/igniz-docs/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/live-activation.md).
+> For the complete documentation index, see [llms.txt](/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](/text-to-algo-t2a/live-activation.md).
 
 # Live Activation
 
-Every T2A strategy eventually faces the same moment: turning a validated idea into a real, running order. Whichever path got you there — a [backtest](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/backtesting.md) you're satisfied with, an [optimizer](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/optimization.md) run's winning settings, or a strategy you've proven out in [paper trading](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/paper-trading.md) — going live is the same final step: the strategy's logic is frozen exactly as validated, and it starts running for real, against your real balance, on the real exchange.
+Every T2A strategy eventually faces the same moment: turning a validated idea into a real, running order. Whichever path got you there — a [backtest](/text-to-algo-t2a/backtesting.md) you're satisfied with, an [optimizer](/text-to-algo-t2a/optimization.md) run's winning settings, or a strategy you've proven out in [paper trading](/text-to-algo-t2a/paper-trading.md) — going live is the same final step: the strategy's logic is frozen exactly as validated, and it starts running for real, against your real balance, on the real exchange.
 
 #### What changes when you go live <a href="#what-changes-when-you-go-live" id="what-changes-when-you-go-live"></a>
 
@@ -20,16 +20,16 @@ Because these choices are made at launch rather than baked into the strategy its
 
 You never have to re-describe or re-enter a strategy to go live:
 
-- A completed [backtest](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/backtesting.md) can generate a ready-to-launch live (or paper-trading) order request directly — the same strategy, the same sizing, the same execution settings shown in the report — so you can go live with one click rather than re-entering everything.
-- A completed [optimization](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/optimization.md) run lets you take its winning settings straight into a fresh backtest for final confirmation, save them as a reusable strategy, or launch them live directly — without re-entering anything by hand.
+- A completed [backtest](/text-to-algo-t2a/backtesting.md) can generate a ready-to-launch live (or paper-trading) order request directly — the same strategy, the same sizing, the same execution settings shown in the report — so you can go live with one click rather than re-entering everything.
+- A completed [optimization](/text-to-algo-t2a/optimization.md) run lets you take its winning settings straight into a fresh backtest for final confirmation, save them as a reusable strategy, or launch them live directly — without re-entering anything by hand.
 
 #### Paper-to-live is a launch-time choice, not a strategy change <a href="#paper-to-live-is-a-launch-time-choice-not-a-strategy-change" id="paper-to-live-is-a-launch-time-choice-not-a-strategy-change"></a>
 
-[Paper trading](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/paper-trading.md) runs a saved strategy through the exact same execution engine, order lifecycle, and state machine as a real order — the only substitution is a realistic simulator standing in for the exchange. "Paper" versus "live" is decided at the moment you launch, not stored on the strategy itself: a saved strategy carries no memory of ever having been paper-traded. Once you're satisfied with how a strategy behaved against the live market in paper mode, you re-launch the exact same saved strategy for real — with zero changes needed to its logic.
+[Paper trading](/text-to-algo-t2a/paper-trading.md) runs a saved strategy through the exact same execution engine, order lifecycle, and state machine as a real order — the only substitution is a realistic simulator standing in for the exchange. "Paper" versus "live" is decided at the moment you launch, not stored on the strategy itself: a saved strategy carries no memory of ever having been paper-traded. Once you're satisfied with how a strategy behaved against the live market in paper mode, you re-launch the exact same saved strategy for real — with zero changes needed to its logic.
 
 #### The quality-warning gate <a href="#the-quality-warning-gate" id="the-quality-warning-gate"></a>
 
-Promotion from a backtest to a live (or paper) order is deliberately held back in one specific case: if a backtest report carries serious quality warnings — too few trades, a too-short sample period, out-of-sample degradation, parameter instability, and the other flags in the [backtesting quality-flag checklist](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/backtesting.md#the-complete-quality-flag-checklist) — the one-click handoff to a live order is intentionally paused until you have seen and acknowledged those warnings. A strategy that looks good only on paper, in a way its own report already flags as questionable, is never silently waved through to real capital.
+Promotion from a backtest to a live (or paper) order is deliberately held back in one specific case: if a backtest report carries serious quality warnings — too few trades, a too-short sample period, out-of-sample degradation, parameter instability, and the other flags in the [backtesting quality-flag checklist](/text-to-algo-t2a/backtesting.md#the-complete-quality-flag-checklist) — the one-click handoff to a live order is intentionally paused until you have seen and acknowledged those warnings. A strategy that looks good only on paper, in a way its own report already flags as questionable, is never silently waved through to real capital.
 
 #### Live monitoring, cancel-anytime, and the audit trail <a href="#live-monitoring-cancel-anytime-and-the-audit-trail" id="live-monitoring-cancel-anytime-and-the-audit-trail"></a>
 
@@ -57,6 +57,6 @@ A few automatic protections apply specifically to live and paper orders:
 
 #### See also <a href="#see-also" id="see-also"></a>
 
-- [Backtesting](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/backtesting.md) — validate a strategy against historical data and generate a one-click launch request.
-- [Optimization](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/optimization.md) — search for better settings and promote the winner straight to a live order.
-- [Paper Trading](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/paper-trading.md) — prove a strategy live against real-time data before committing real capital.
+- [Backtesting](/text-to-algo-t2a/backtesting.md) — validate a strategy against historical data and generate a one-click launch request.
+- [Optimization](/text-to-algo-t2a/optimization.md) — search for better settings and promote the winner straight to a live order.
+- [Paper Trading](/text-to-algo-t2a/paper-trading.md) — prove a strategy live against real-time data before committing real capital.

@@ -1,4 +1,4 @@
-> For the complete documentation index, see [llms.txt](https://igniz.gitbook.io/igniz-docs/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/analysis-types.md).
+> For the complete documentation index, see [llms.txt](/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](/ai-chart-analysis/analysis-types.md).
 
 # AI Chart Analysis — Analysis Types
 
@@ -26,7 +26,7 @@ Analysis Mode recognizes a set of common analysis keywords and maps each one to 
 | Risk map | `risk_map` |
 | Multi-timeframe context | `multi_timeframe` |
 
-Every keyword in this table maps to a fully supported analysis type — there are no recognized-but-unsupported keywords. If you type something the system doesn't recognize, it routes to the unsupported-request handling described in [Reliability & Limits](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/reliability-and-limits.md).
+Every keyword in this table maps to a fully supported analysis type — there are no recognized-but-unsupported keywords. If you type something the system doesn't recognize, it routes to the unsupported-request handling described in [Reliability & Limits](/ai-chart-analysis/reliability-and-limits.md).
 
 Examples:
 
@@ -88,4 +88,4 @@ Automatic selection is deliberately conservative: it prioritizes relevance and c
 4. No more than one supporting indicator
 5. No more than six drawings
 
-You can always narrow or broaden the result afterward with a refinement — see [Editing & Reuse](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/editing-and-reuse.md). Your default detail level and drawing limit also shape automatic selection — see [Preferences](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/preferences.md).
+You can always narrow or broaden the result afterward with a refinement — see [Editing & Reuse](/ai-chart-analysis/editing-and-reuse.md). Your default detail level and drawing limit also shape automatic selection — see [Preferences](/ai-chart-analysis/preferences.md).

@@ -1,4 +1,4 @@
-> For the complete documentation index, see [llms.txt](https://igniz.gitbook.io/igniz-docs/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/editing-and-reuse.md).
+> For the complete documentation index, see [llms.txt](/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](/ai-chart-analysis/editing-and-reuse.md).
 
 # AI Chart Analysis — Editing & Reuse
 
@@ -48,9 +48,9 @@ Recalculate using the broader impulse
 
 ### The Refinement Loop <a href="#the-refinement-loop" id="the-refinement-loop"></a>
 
-Every refinement is planned against your **active analysis context** — the previous engine result's object IDs, types, states, and any edits you've made (see [User Flow](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/user-flow.md)). That context is what makes "the previous swing low" resolvable at all: the planner can see `swing_low_1`, `swing_low_2`, and so on, and binds your instruction to the right one by ID rather than guessing.
+Every refinement is planned against your **active analysis context** — the previous engine result's object IDs, types, states, and any edits you've made (see [User Flow](/ai-chart-analysis/user-flow.md)). That context is what makes "the previous swing low" resolvable at all: the planner can see `swing_low_1`, `swing_low_2`, and so on, and binds your instruction to the right one by ID rather than guessing.
 
-Refinement plans carry `mode: "refinement"`, a `parent_request_id`, and explicit `retained_objects` / `removed_objects` diffs (see [Data Contracts](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/data-contracts.md)). The engine recalculates only what the diff touches — a refinement updates your current analysis, it never spins up a disconnected new one.
+Refinement plans carry `mode: "refinement"`, a `parent_request_id`, and explicit `retained_objects` / `removed_objects` diffs (see [Data Contracts](/ai-chart-analysis/data-contracts.md)). The engine recalculates only what the diff touches — a refinement updates your current analysis, it never spins up a disconnected new one.
 
 ### Local Refinements (No AI Round-Trip) <a href="#local-refinements" id="local-refinements"></a>
 
@@ -62,7 +62,7 @@ Some commands are simple and unambiguous enough that the UI and engine execute t
 - Undo / redo
 - Clear analysis
 
-These complete in **150 milliseconds or less** (see [Reliability & Limits](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/reliability-and-limits.md)). Anything that actually requires interpretation — "use the broader impulse," "show the bearish interpretation" — goes through the AI planner instead.
+These complete in **150 milliseconds or less** (see [Reliability & Limits](/ai-chart-analysis/reliability-and-limits.md)). Anything that actually requires interpretation — "use the broader impulse," "show the bearish interpretation" — goes through the AI planner instead.
 
 ### User Edit Persistence <a href="#user-edit-persistence" id="user-edit-persistence"></a>
 
@@ -101,7 +101,7 @@ Maximum drawings: 6
 
 A saved recipe can be run later on the current chart, a different symbol, a different timeframe, a watchlist item, or a selected chart region.
 
-**Rerun** always uses current market data while keeping the saved recipe and its preferences intact. It produces a fresh execution (`mode: "recipe_run"`) — not a replay of old coordinates. Schema versioning ensures recipes keep working across releases; see [Data Contracts](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/data-contracts.md) for how migration is handled.
+**Rerun** always uses current market data while keeping the saved recipe and its preferences intact. It produces a fresh execution (`mode: "recipe_run"`) — not a replay of old coordinates. Schema versioning ensures recipes keep working across releases; see [Data Contracts](/ai-chart-analysis/data-contracts.md) for how migration is handled.
 
 ### User Controls <a href="#user-controls" id="user-controls"></a>
 

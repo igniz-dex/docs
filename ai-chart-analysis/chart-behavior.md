@@ -1,4 +1,4 @@
-> For the complete documentation index, see [llms.txt](https://igniz.gitbook.io/igniz-docs/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/chart-behavior.md).
+> For the complete documentation index, see [llms.txt](/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](/ai-chart-analysis/chart-behavior.md).
 
 # AI Chart Analysis — Chart Behavior
 
@@ -36,7 +36,7 @@ By default it contains:
 - One warning, when relevant
 - The confirmation grade of the primary evaluation
 
-Summaries never contain recommendation vocabulary — see [Overview](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/overview.md).
+Summaries never contain recommendation vocabulary — see [Overview](/ai-chart-analysis/overview.md).
 
 ### Analysis Layer List <a href="#analysis-layer-list" id="analysis-layer-list"></a>
 
@@ -99,6 +99,6 @@ Repainting — a drawing silently moving after the fact — is the most common t
 
 ### Live Invalidation Without Re-Planning <a href="#live-invalidation" id="live-invalidation"></a>
 
-Because every evaluation ships with a machine-readable invalidation rule (see [Data Contracts](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/data-contracts.md)), the engine can transition a Confirmed object straight to Invalidated as live data arrives — with no AI call required. A brief system note appends to the summary automatically:
+Because every evaluation ships with a machine-readable invalidation rule (see [Data Contracts](/ai-chart-analysis/data-contracts.md)), the engine can transition a Confirmed object straight to Invalidated as live data arrives — with no AI call required. A brief system note appends to the summary automatically:
 
 > *"Breakout invalidated: two closes back inside the range."*

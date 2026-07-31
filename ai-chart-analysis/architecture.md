@@ -1,4 +1,4 @@
-> For the complete documentation index, see [llms.txt](https://igniz.gitbook.io/igniz-docs/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/architecture.md).
+> For the complete documentation index, see [llms.txt](/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](/ai-chart-analysis/architecture.md).
 
 # AI Chart Analysis — Architecture
 
@@ -9,7 +9,7 @@ AI Chart Analysis is built on a deliberate split between two components with ver
 - **The AI plans.** It interprets your intent and turns it into a structured request. It never touches OHLCV data directly and never does the math itself.
 - **The deterministic engine calculates.** It is the only component that reads market data, runs indicator math, evaluates conditions, and produces the numbers, coordinates, and states that end up on your chart.
 
-This split exists so that anything you see drawn on a chart — a support level, a Fibonacci ratio, a confirmation grade — traces back to a deterministic calculation, never to something an AI model guessed at. It's the same reasoning that keeps repainting out of the drawing state machine (see [Chart Behavior](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/chart-behavior.md)).
+This split exists so that anything you see drawn on a chart — a support level, a Fibonacci ratio, a confirmation grade — traces back to a deterministic calculation, never to something an AI model guessed at. It's the same reasoning that keeps repainting out of the drawing state machine (see [Chart Behavior](/ai-chart-analysis/chart-behavior.md)).
 
 ### How Selection and Wording Are Reconciled <a href="#selection-rules" id="selection-rules"></a>
 
@@ -44,7 +44,7 @@ Your prompt and your chart selection are usually in agreement, but the system ha
 - Directly generate chart coordinates — selection coordinates are UI pass-through only, never AI-authored
 - Emit numeric probabilities or confidence scores
 - Claim a setup is profitable, or present untested analysis as a validated edge
-- Use recommendation vocabulary — "buy," "sell," "enter," "exit," "should" (see [Overview](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/overview.md))
+- Use recommendation vocabulary — "buy," "sell," "enter," "exit," "should" (see [Overview](/ai-chart-analysis/overview.md))
 - Execute trades or create orders
 
 ### What the Deterministic Engine Does <a href="#what-the-engine-does" id="what-the-engine-does"></a>
@@ -62,4 +62,4 @@ The engine is the source of truth for every chart value and drawing coordinate. 
 - Rejects unsupported or invalid requests with machine-readable error codes
 - Produces repeatable results from the same inputs and the same schema version
 
-The exact shape of what passes between the AI and the engine — and what the engine hands back to the chart — is covered next in [Data Contracts](https://igniz.gitbook.io/igniz-docs/ai-chart-analysis/data-contracts.md).
+The exact shape of what passes between the AI and the engine — and what the engine hands back to the chart — is covered next in [Data Contracts](/ai-chart-analysis/data-contracts.md).

@@ -1,4 +1,4 @@
-> For the complete documentation index, see [llms.txt](https://igniz.gitbook.io/igniz-docs/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/nlp-strategy-synthesis.md).
+> For the complete documentation index, see [llms.txt](/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](/text-to-algo-t2a/nlp-strategy-synthesis.md).
 
 # NLP Strategy Synthesis
 
@@ -49,10 +49,10 @@ Before committing any capital, you can preview a strategy against the current ma
 
 ### Building a Strategy <a href="#building-a-strategy" id="building-a-strategy"></a>
 
-- [Strategy Overview](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/nlp-strategy-synthesis/strategy-overview.md) — the entry / take-profit / stop-loss mental model.
-- [Indicators & Market Data](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/nlp-strategy-synthesis/indicators-and-market-data.md) — the full 69-indicator toolkit and every other market-data input.
-- [Conditions & Trading Signals](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/nlp-strategy-synthesis/conditions-and-trading-signals.md) — comparators, boolean logic, chart patterns, divergence, and session filters.
-- [Risk, Orders & Position Management](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/nlp-strategy-synthesis/risk-orders-and-position-management.md) — order types, the take-profit ladder, stop-loss, and position sizing.
-- [Execution & Automation Settings](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/nlp-strategy-synthesis/execution-and-automation-settings.md) — execution modes, cooldowns, notifications, and monitoring.
-- [Strategy Examples](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/nlp-strategy-synthesis/strategy-examples.md) — ready-to-build patterns mapping trader concepts to primitives.
-- [Limitations & Technical Reference](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/nlp-strategy-synthesis/limitations-and-technical-reference.md) — the exact numeric limits, known gaps, and roadmap.
+- [Strategy Overview](/text-to-algo-t2a/nlp-strategy-synthesis/strategy-overview.md) — the entry / take-profit / stop-loss mental model.
+- [Indicators & Market Data](/text-to-algo-t2a/nlp-strategy-synthesis/indicators-and-market-data.md) — the full 69-indicator toolkit and every other market-data input.
+- [Conditions & Trading Signals](/text-to-algo-t2a/nlp-strategy-synthesis/conditions-and-trading-signals.md) — comparators, boolean logic, chart patterns, divergence, and session filters.
+- [Risk, Orders & Position Management](/text-to-algo-t2a/nlp-strategy-synthesis/risk-orders-and-position-management.md) — order types, the take-profit ladder, stop-loss, and position sizing.
+- [Execution & Automation Settings](/text-to-algo-t2a/nlp-strategy-synthesis/execution-and-automation-settings.md) — execution modes, cooldowns, notifications, and monitoring.
+- [Strategy Examples](/text-to-algo-t2a/nlp-strategy-synthesis/strategy-examples.md) — ready-to-build patterns mapping trader concepts to primitives.
+- [Limitations & Technical Reference](/text-to-algo-t2a/nlp-strategy-synthesis/limitations-and-technical-reference.md) — the exact numeric limits, known gaps, and roadmap.

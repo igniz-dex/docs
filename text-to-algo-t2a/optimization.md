@@ -1,4 +1,4 @@
-> For the complete documentation index, see [llms.txt](https://igniz.gitbook.io/igniz-docs/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/optimization.md).
+> For the complete documentation index, see [llms.txt](/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](/text-to-algo-t2a/optimization.md).
 
 # Optimization
 
@@ -52,7 +52,7 @@ This is the optimizer's signature capability: a set of genuine quantitative-fina
 - **Probability of Backtest Overfitting (PBO), via Combinatorially-Symmetric Cross-Validation (CSCV)** — the published Bailey, Borwein, López de Prado & Zhu (2017) technique for exactly this problem. The historical timeline is cut into 16 blocks, and every possible symmetric way of using half the blocks as "training" and the other half as "testing" is checked (12,870 combinations) — for each one, does the setting that looked best on the training half still look good on the testing half? A high PBO is a direct warning that the search process itself is likely to have overfit, and that live results might not repeat what the backtest showed. This check runs across a broad, representative sample of **40 distinct configurations spanning both winners and losers** from the whole search — not just the handful of eventual finalists — for an honest, whole-search view of overfitting risk.
 - **Confidence intervals via block-bootstrap resampling** — rather than a single headline number, the optimizer redraws the strategy's return history **1,000 times** in randomly-sized, order-preserving chunks (so short-term streakiness and autocorrelation are preserved, not erased the way naive shuffling would) and reports the realistic 95% range this produces for Sharpe ratio and annualized growth, plus the typical and worst-case (95th-percentile) drawdown across those redraws, and the outright probability that the true Sharpe ratio is zero or negative.
 - **Parameter-stability (plateau) testing** — the winning settings are nudged in **8 random directions**, each dimension shifted by up to ±10%, and every nudged neighbor is re-scored. If the neighbors' average performance holds up close to the original (high "retention"), and few of them flip from profitable to unprofitable, the result is flagged as sitting on a stable plateau rather than a fragile, razor's-edge spike.
-- **Market-regime coverage** — checks that a winning strategy isn't only profitable in one narrow type of market, using the same self-calibrating uptrend/downtrend × high-vol/low-vol classification used in [Backtesting](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/backtesting.md) (5-day vs. 20-day price trend, 7-day realized volatility vs. its own median).
+- **Market-regime coverage** — checks that a winning strategy isn't only profitable in one narrow type of market, using the same self-calibrating uptrend/downtrend × high-vol/low-vol classification used in [Backtesting](/text-to-algo-t2a/backtesting.md) (5-day vs. 20-day price trend, 7-day realized volatility vs. its own median).
 - **Cost-shock stress test** — automatically re-runs the candidate with trading fees and slippage all increased by **50%**, to check whether the edge survives materially higher, more realistic trading costs rather than just looking good at today's fee schedule.
 - **A locked, never-touched holdout period** — a final slice of history is set aside and never used by any part of the search or selection process, so its result is reported as the closest thing to a genuinely unbiased "how would this really have performed" figure — clearly distinguished on the report from the more optimistic in-sample numbers.
 
@@ -110,7 +110,7 @@ The optimizer automatically identifies every sensible numeric setting inside a s
 - A **trade-off frontier** (Pareto front) showing the best available balance between return, drawdown, and trading activity — so you can pick a more conservative or more aggressive variant deliberately, not just accept "the single best number."
 - **Never-gated holdout results** for the top pick — the one number set in the whole report that no part of the search or selection process ever touched.
 - **Plain-English flags and explanations** automatically attached to the report, calling out anything you should know before trusting the result (for example, if no candidate passed every reality check, or if the winning number carries some inherent selection bias from how finalists were chosen).
-- **One-click promotion** — take the winning settings straight into a fresh backtest for final confirmation, save it as a reusable strategy, or launch it live, without re-entering anything by hand. See [Live Activation](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/live-activation.md) for how the launch itself works.
+- **One-click promotion** — take the winning settings straight into a fresh backtest for final confirmation, save it as a reusable strategy, or launch it live, without re-entering anything by hand. See [Live Activation](/text-to-algo-t2a/live-activation.md) for how the launch itself works.
 
 #### Built for scale <a href="#built-for-scale" id="built-for-scale"></a>
 
@@ -127,6 +127,6 @@ The optimizer automatically identifies every sensible numeric setting inside a s
 
 #### See also <a href="#see-also" id="see-also"></a>
 
-- [Backtesting](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/backtesting.md) — the same validation suite and quality-flag checklist used to confirm an optimizer finalist.
-- [Paper Trading](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/paper-trading.md) — validate an optimizer's winning settings live, against real-time data, with zero real risk.
-- [Live Activation](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/live-activation.md) — one-click promotion of a winning configuration into a real, running order.
+- [Backtesting](/text-to-algo-t2a/backtesting.md) — the same validation suite and quality-flag checklist used to confirm an optimizer finalist.
+- [Paper Trading](/text-to-algo-t2a/paper-trading.md) — validate an optimizer's winning settings live, against real-time data, with zero real risk.
+- [Live Activation](/text-to-algo-t2a/live-activation.md) — one-click promotion of a winning configuration into a real, running order.

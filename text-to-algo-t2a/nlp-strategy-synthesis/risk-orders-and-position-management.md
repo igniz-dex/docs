@@ -1,8 +1,8 @@
-> For the complete documentation index, see [llms.txt](https://igniz.gitbook.io/igniz-docs/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/nlp-strategy-synthesis/risk-orders-and-position-management.md).
+> For the complete documentation index, see [llms.txt](/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](/text-to-algo-t2a/nlp-strategy-synthesis/risk-orders-and-position-management.md).
 
 # Risk, Orders & Position Management
 
-Every T2A strategy is more than an entry signal — it's a complete order plan. This page covers how a strategy enters the market, how it takes profit, how it protects against loss, and how much it trades. For how a strategy runs over time once it's live, see [Execution & Automation Settings](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/nlp-strategy-synthesis/execution-and-automation-settings.md).
+Every T2A strategy is more than an entry signal — it's a complete order plan. This page covers how a strategy enters the market, how it takes profit, how it protects against loss, and how much it trades. For how a strategy runs over time once it's live, see [Execution & Automation Settings](/text-to-algo-t2a/nlp-strategy-synthesis/execution-and-automation-settings.md).
 
 #### Entry orders <a href="#entry-orders" id="entry-orders"></a>
 
@@ -23,7 +23,7 @@ Take-profit isn't limited to a single target. A strategy can define up to **5 ta
 - The moment any take-profit leg (or the stop-loss) fires, every other resting exit order for that position is **automatically cancelled** (a one-cancels-other, or OCO, relationship) — there's never a stray order left resting after the position is already closed.
 - If a take-profit leg only partially fills, the stop-loss protecting the remaining position is **automatically resized** to match what's actually left open.
 
-A common pattern: take 50% off at +1%, another 30% at +2%, and let a trailing stop manage the final 20% — see [Strategy Examples](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/nlp-strategy-synthesis/strategy-examples.md) for more worked patterns like this.
+A common pattern: take 50% off at +1%, another 30% at +2%, and let a trailing stop manage the final 20% — see [Strategy Examples](/text-to-algo-t2a/nlp-strategy-synthesis/strategy-examples.md) for more worked patterns like this.
 
 #### Stop-loss <a href="#stop-loss" id="stop-loss"></a>
 
@@ -68,4 +68,4 @@ Futures strategies support leverage up to **125x**. Leverage and margin mode (cr
 | Risk % sizing | Requires a stop-loss with a resolvable, fixed distance |
 | Equity % sizing | Futures only; accepted at build time, not yet available at live launch |
 
-For the complete set of platform-wide limits, see [Limitations & Technical Reference](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/nlp-strategy-synthesis/limitations-and-technical-reference.md).
+For the complete set of platform-wide limits, see [Limitations & Technical Reference](/text-to-algo-t2a/nlp-strategy-synthesis/limitations-and-technical-reference.md).
