@@ -1,4 +1,4 @@
-> For the complete documentation index, see [llms.txt](llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](deposit-and-withdrawal.md).
+> For the complete documentation index, see [llms.txt](https://igniz.gitbook.io/igniz-docs/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://igniz.gitbook.io/igniz-docs/deposit-and-withdrawal.md).
 
 # Deposit and Withdrawal
 
@@ -16,7 +16,7 @@ In practice, this means:
 
 #### **How to Deposit** <a href="#how-to-deposit" id="how-to-deposit"></a>
 
-1. Connect a Web3-compatible wallet to Igniz (see [How to Start Trading](quick-start-guide/how-to-start-trading.md) if you haven't connected yet).
+1. Connect a Web3-compatible wallet to Igniz (see [How to Start Trading](https://igniz.gitbook.io/igniz-docs/quick-start-guide/how-to-start-trading.md) if you haven't connected yet).
 2. Open the deposit interface via the "Deposit" button.
 3. Select the source blockchain network and the asset you want to deposit. Stablecoins (USDC recommended) are the most common trading collateral.
 4. Specify the deposit amount and authorize the transaction from your wallet.
@@ -36,12 +36,12 @@ Withdrawals on Igniz are trustless: your request is executed directly by smart c
 
 ### Fees <a href="#fees" id="fees"></a>
 
-Igniz does not charge fees for deposits or withdrawals. The only cost involved is the network gas fee charged by the underlying blockchain for processing your on-chain transaction — Igniz does not add any platform fee on top of it. See the [Fee Structure Overview](igniz-trade/fee-structure.md) for how this compares to trading fees.
+Igniz does not charge fees for deposits or withdrawals. The only cost involved is the network gas fee charged by the underlying blockchain for processing your on-chain transaction — Igniz does not add any platform fee on top of it. See the [Fee Structure Overview](https://igniz.gitbook.io/igniz-docs/igniz-trade/fee-structure.md) for how this compares to trading fees.
 
 > Note: Gas costs vary by network and current network congestion; they are set by the blockchain, not by Igniz.
 
 ### Related Pages <a href="#related-pages" id="related-pages"></a>
 
-* [Fee Structure Overview](igniz-trade/fee-structure.md)
-* [Fund Safety](igniz-trade/fund-safety.md)
-* [How to Start Trading](quick-start-guide/how-to-start-trading.md)
+* [Fee Structure Overview](https://igniz.gitbook.io/igniz-docs/igniz-trade/fee-structure.md)
+* [Fund Safety](https://igniz.gitbook.io/igniz-docs/igniz-trade/fund-safety.md)
+* [How to Start Trading](https://igniz.gitbook.io/igniz-docs/quick-start-guide/how-to-start-trading.md)

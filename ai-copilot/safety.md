@@ -1,4 +1,4 @@
-> For the complete documentation index, see [llms.txt](llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](ai-copilot/safety.md).
+> For the complete documentation index, see [llms.txt](https://igniz.gitbook.io/igniz-docs/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://igniz.gitbook.io/igniz-docs/ai-copilot/safety.md).
 
 # AI Copilot — Safety
 
@@ -16,7 +16,7 @@ Copilot cannot place an order, cancel an order, transfer funds between accounts,
 
 #### Full Trading Authority Is A Separate, Explicit Choice <a href="#full-trading-authority" id="full-trading-authority"></a>
 
-For traders who want an AI agent that can actually execute trades or move funds on their behalf, the platform offers a distinct, OAuth-secured integration — **[MCP](mcp.md)** — that any authorized agent can connect through, with you granting exactly the permissions you choose, entirely separately from the in-app chat.
+For traders who want an AI agent that can actually execute trades or move funds on their behalf, the platform offers a distinct, OAuth-secured integration — **[MCP](https://igniz.gitbook.io/igniz-docs/mcp.md)** — that any authorized agent can connect through, with you granting exactly the permissions you choose, entirely separately from the in-app chat.
 
 This is a deliberate two-tier design:
 
@@ -37,7 +37,7 @@ Operators can instantly disable Copilot entirely, platform-wide, if ever needed,
 
 #### Tier-Based Rate Limits And Hardened Uploads <a href="#rate-limits-and-uploads" id="rate-limits-and-uploads"></a>
 
-Messages-per-minute and uploads-per-hour are capped per account tier (see [Access & Limits](ai-copilot/access-and-limits.md)), and every uploaded file or image is checked against a strict extension, content-type, and file-signature match before being accepted — so a disguised file can't slip through under a fake extension.
+Messages-per-minute and uploads-per-hour are capped per account tier (see [Access & Limits](https://igniz.gitbook.io/igniz-docs/ai-copilot/access-and-limits.md)), and every uploaded file or image is checked against a strict extension, content-type, and file-signature match before being accepted — so a disguised file can't slip through under a fake extension.
 
 #### The Math <a href="#the-math" id="the-math"></a>
 

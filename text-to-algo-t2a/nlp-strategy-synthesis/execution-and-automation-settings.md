@@ -1,8 +1,8 @@
-> For the complete documentation index, see [llms.txt](llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](text-to-algo-t2a/nlp-strategy-synthesis/execution-and-automation-settings.md).
+> For the complete documentation index, see [llms.txt](https://igniz.gitbook.io/igniz-docs/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/nlp-strategy-synthesis/execution-and-automation-settings.md).
 
 # Execution & Automation Settings
 
-A T2A strategy's *logic* — its entry, take-profit, and stop-loss conditions — is saved once and reused. How that logic actually *runs* over time is chosen separately, every time you launch or re-launch a strategy. That separation means the same saved strategy can be run as a single one-off trade today and as a continuously repeating automation tomorrow, with no changes to its underlying rules. For the order and sizing details referenced below, see [Risk, Orders & Position Management](text-to-algo-t2a/nlp-strategy-synthesis/risk-orders-and-position-management.md).
+A T2A strategy's *logic* — its entry, take-profit, and stop-loss conditions — is saved once and reused. How that logic actually *runs* over time is chosen separately, every time you launch or re-launch a strategy. That separation means the same saved strategy can be run as a single one-off trade today and as a continuously repeating automation tomorrow, with no changes to its underlying rules. For the order and sizing details referenced below, see [Risk, Orders & Position Management](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/nlp-strategy-synthesis/risk-orders-and-position-management.md).
 
 #### Execution modes <a href="#execution-modes" id="execution-modes"></a>
 
@@ -46,4 +46,4 @@ Every event in a strategy's lifecycle is permanently logged and retrievable per-
 | Lifecycle events | 180 days |
 | Detailed logs | 90 days |
 
-For the platform-wide rate limits and safety rails that govern how frequently you can create, cancel, or edit strategies, see [Limitations & Technical Reference](text-to-algo-t2a/nlp-strategy-synthesis/limitations-and-technical-reference.md).
+For the platform-wide rate limits and safety rails that govern how frequently you can create, cancel, or edit strategies, see [Limitations & Technical Reference](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/nlp-strategy-synthesis/limitations-and-technical-reference.md).

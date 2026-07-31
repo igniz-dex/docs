@@ -1,4 +1,4 @@
-> For the complete documentation index, see [llms.txt](llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](ai-copilot/overview.md).
+> For the complete documentation index, see [llms.txt](https://igniz.gitbook.io/igniz-docs/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://igniz.gitbook.io/igniz-docs/ai-copilot/overview.md).
 
 # AI Copilot — Overview
 
@@ -31,11 +31,11 @@ This page introduces Copilot. The rest of the section covers the conversational 
 
 | Page | Covers |
 |---|---|
-| [Chat](ai-copilot/chat.md) | Model choice, visible reasoning, transparent tool use, multimodal input, memory, streaming |
-| [Safety](ai-copilot/safety.md) | The trust model, read-only architecture, and how full trading authority is granted separately |
-| [Trading & Accounts](ai-copilot/trading-and-accounts.md) | Spot, futures, wallet, and referral visibility |
-| [Markets & Indicators](ai-copilot/markets-and-indicators.md) | Market intelligence and the 60+ indicator technical analysis engine |
-| [Performance & Strategy](ai-copilot/performance-and-strategy.md) | The AI Performance Coach and Strategy Lab research tools |
-| [Access & Limits](ai-copilot/access-and-limits.md) | Tier-based upload caps and rate limits |
+| [Chat](https://igniz.gitbook.io/igniz-docs/ai-copilot/chat.md) | Model choice, visible reasoning, transparent tool use, multimodal input, memory, streaming |
+| [Safety](https://igniz.gitbook.io/igniz-docs/ai-copilot/safety.md) | The trust model, read-only architecture, and how full trading authority is granted separately |
+| [Trading & Accounts](https://igniz.gitbook.io/igniz-docs/ai-copilot/trading-and-accounts.md) | Spot, futures, wallet, and referral visibility |
+| [Markets & Indicators](https://igniz.gitbook.io/igniz-docs/ai-copilot/markets-and-indicators.md) | Market intelligence and the 60+ indicator technical analysis engine |
+| [Performance & Strategy](https://igniz.gitbook.io/igniz-docs/ai-copilot/performance-and-strategy.md) | The AI Performance Coach and Strategy Lab research tools |
+| [Access & Limits](https://igniz.gitbook.io/igniz-docs/ai-copilot/access-and-limits.md) | Tier-based upload caps and rate limits |
 
-For traders who want an AI agent that can actually execute trades or move funds on their behalf, see [MCP](mcp.md) — a separate, explicitly-authorized integration covered in full on the [Safety](ai-copilot/safety.md) page.
+For traders who want an AI agent that can actually execute trades or move funds on their behalf, see [MCP](https://igniz.gitbook.io/igniz-docs/mcp.md) — a separate, explicitly-authorized integration covered in full on the [Safety](https://igniz.gitbook.io/igniz-docs/ai-copilot/safety.md) page.

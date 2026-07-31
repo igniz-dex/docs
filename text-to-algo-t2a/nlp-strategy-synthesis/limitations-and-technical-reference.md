@@ -1,4 +1,4 @@
-> For the complete documentation index, see [llms.txt](llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](text-to-algo-t2a/nlp-strategy-synthesis/limitations-and-technical-reference.md).
+> For the complete documentation index, see [llms.txt](https://igniz.gitbook.io/igniz-docs/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/nlp-strategy-synthesis/limitations-and-technical-reference.md).
 
 # Limitations & Technical Reference
 
@@ -54,8 +54,8 @@ T2A is honest about what it can't yet do. If a strategy description names one of
 #### What's next <a href="#whats-next" id="whats-next"></a>
 
 - **Cross-pair strategies** are fully built and working, and are being rolled out progressively rather than switched on for every trader at once.
-- **Percentage-of-equity position sizing** on futures is already accepted and validated when a strategy is built, but isn't yet available as a launch option for a live order — see [Risk, Orders & Position Management](text-to-algo-t2a/nlp-strategy-synthesis/risk-orders-and-position-management.md).
+- **Percentage-of-equity position sizing** on futures is already accepted and validated when a strategy is built, but isn't yet available as a launch option for a live order — see [Risk, Orders & Position Management](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/nlp-strategy-synthesis/risk-orders-and-position-management.md).
 - **Open Interest** as a strategy input is on the roadmap, alongside the funding rate, mark price, and index price inputs already available today.
 - **Daylight-saving-aware session filters** are a documented future improvement over today's UTC-only windows.
 
-For execution modes, notifications, and the audit trail, see [Execution & Automation Settings](text-to-algo-t2a/nlp-strategy-synthesis/execution-and-automation-settings.md). For worked examples of common strategy patterns, see [Strategy Examples](text-to-algo-t2a/nlp-strategy-synthesis/strategy-examples.md).
+For execution modes, notifications, and the audit trail, see [Execution & Automation Settings](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/nlp-strategy-synthesis/execution-and-automation-settings.md). For worked examples of common strategy patterns, see [Strategy Examples](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/nlp-strategy-synthesis/strategy-examples.md).

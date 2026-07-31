@@ -1,4 +1,4 @@
-> For the complete documentation index, see [llms.txt](llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](quick-start-guide/connect-mobile-via-qr-code.md).
+> For the complete documentation index, see [llms.txt](https://igniz.gitbook.io/igniz-docs/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://igniz.gitbook.io/igniz-docs/quick-start-guide/connect-mobile-via-qr-code.md).
 
 # Connect Mobile via QR Code
 
@@ -20,7 +20,7 @@ If you keep your wallet on your phone rather than in a browser extension, you ca
 6. Your wallet app will display a connection request from Igniz, including the site and the permissions being requested. Review the request and approve it on your phone.
 7. Once approved, the desktop session updates automatically to show your wallet as connected, and you can proceed to trade.
 
-> Note: After connecting, you may still need to complete a one-time signature to enable gas-free order placement, as described in [How to Start Trading](quick-start-guide/how-to-start-trading.md).
+> Note: After connecting, you may still need to complete a one-time signature to enable gas-free order placement, as described in [How to Start Trading](https://igniz.gitbook.io/igniz-docs/quick-start-guide/how-to-start-trading.md).
 
 #### **Tips** <a href="#tips" id="tips"></a>
 
@@ -34,5 +34,5 @@ If scanning does not result in a connection, try refreshing the QR code on deskt
 
 ### Related Pages <a href="#related-pages" id="related-pages"></a>
 
-* [How to Start Trading](quick-start-guide/how-to-start-trading.md)
-* [Wallet Backup](quick-start-guide/wallet-backup.md)
+* [How to Start Trading](https://igniz.gitbook.io/igniz-docs/quick-start-guide/how-to-start-trading.md)
+* [Wallet Backup](https://igniz.gitbook.io/igniz-docs/quick-start-guide/wallet-backup.md)

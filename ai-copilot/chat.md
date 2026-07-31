@@ -1,4 +1,4 @@
-> For the complete documentation index, see [llms.txt](llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](ai-copilot/chat.md).
+> For the complete documentation index, see [llms.txt](https://igniz.gitbook.io/igniz-docs/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://igniz.gitbook.io/igniz-docs/ai-copilot/chat.md).
 
 # AI Copilot — Chat
 
@@ -28,4 +28,4 @@ Responses stream back as they're generated over a live connection, so the experi
 
 #### Tiered Access <a href="#tiered-access" id="tiered-access"></a>
 
-Copilot is offered across four account tiers — **Free, Basic, Pro, and Enterprise** — each unlocking higher-capability models and higher usage ceilings. See [Access & Limits](ai-copilot/access-and-limits.md) for the full tier table.
+Copilot is offered across four account tiers — **Free, Basic, Pro, and Enterprise** — each unlocking higher-capability models and higher usage ceilings. See [Access & Limits](https://igniz.gitbook.io/igniz-docs/ai-copilot/access-and-limits.md) for the full tier table.

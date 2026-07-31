@@ -1,4 +1,4 @@
-> For the complete documentation index, see [llms.txt](llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](ai-copilot/access-and-limits.md).
+> For the complete documentation index, see [llms.txt](https://igniz.gitbook.io/igniz-docs/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://igniz.gitbook.io/igniz-docs/ai-copilot/access-and-limits.md).
 
 # AI Copilot — Access & Limits
 
@@ -31,4 +31,4 @@ Every uploaded file or image is checked against a strict extension, content-type
 | **Performance Coach** | Portfolio summary · pair performance · position breakdown · trade journal |
 | **Strategy Lab** | Backtest/optimization status, reports, and history · parameter-space preview |
 
-For placing or cancelling trades, transferring funds, or launching new backtests/optimizations, see [MCP](mcp.md) — the separate, explicitly-authorized capability set for AI agents that act on your behalf. See [Safety](ai-copilot/safety.md) for how the two are kept architecturally separate.
+For placing or cancelling trades, transferring funds, or launching new backtests/optimizations, see [MCP](https://igniz.gitbook.io/igniz-docs/mcp.md) — the separate, explicitly-authorized capability set for AI agents that act on your behalf. See [Safety](https://igniz.gitbook.io/igniz-docs/ai-copilot/safety.md) for how the two are kept architecturally separate.

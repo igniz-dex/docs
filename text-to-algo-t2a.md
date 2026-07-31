@@ -1,4 +1,4 @@
-> For the complete documentation index, see [llms.txt](llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](text-to-algo-t2a.md).
+> For the complete documentation index, see [llms.txt](https://igniz.gitbook.io/igniz-docs/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a.md).
 
 # Text-to-Algo (T2A)
 
@@ -63,8 +63,8 @@ A strategy isn't a one-shot creation — it's something you manage over time:
 
 ### Explore T2A <a href="#explore-t2a" id="explore-t2a"></a>
 
-- [NLP Strategy Synthesis](text-to-algo-t2a/nlp-strategy-synthesis.md) — how a plain-English description becomes a validated algorithm.
-- [Backtesting](text-to-algo-t2a/backtesting.md) — checking a strategy against historical market data.
-- [Optimization](text-to-algo-t2a/optimization.md) — automated parameter search over a strategy.
-- [Paper Trading](text-to-algo-t2a/paper-trading.md) — running a strategy live with simulated fills.
-- [Live Activation](text-to-algo-t2a/live-activation.md) — flipping a proven strategy to real execution.
+- [NLP Strategy Synthesis](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/nlp-strategy-synthesis.md) — how a plain-English description becomes a validated algorithm.
+- [Backtesting](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/backtesting.md) — checking a strategy against historical market data.
+- [Optimization](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/optimization.md) — automated parameter search over a strategy.
+- [Paper Trading](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/paper-trading.md) — running a strategy live with simulated fills.
+- [Live Activation](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/live-activation.md) — flipping a proven strategy to real execution.

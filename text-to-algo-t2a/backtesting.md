@@ -1,4 +1,4 @@
-> For the complete documentation index, see [llms.txt](llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](text-to-algo-t2a/backtesting.md).
+> For the complete documentation index, see [llms.txt](https://igniz.gitbook.io/igniz-docs/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/backtesting.md).
 
 # Backtesting
 
@@ -115,7 +115,7 @@ Every report also carries standard risk disclosures (hypothetical results, not i
 
 #### From backtest to live, seamlessly <a href="#from-backtest-to-live-seamlessly" id="from-backtest-to-live-seamlessly"></a>
 
-A completed backtest can generate a ready-to-launch live (or paper-trading) order request — the same strategy, the same sizing, the same execution settings — so if you like what you see, you can go live with one click rather than re-entering everything. If a report carries serious quality warnings, that handoff is intentionally held back until you've seen and acknowledged them. See [Live Activation](text-to-algo-t2a/live-activation.md) for the full handoff flow.
+A completed backtest can generate a ready-to-launch live (or paper-trading) order request — the same strategy, the same sizing, the same execution settings — so if you like what you see, you can go live with one click rather than re-entering everything. If a report carries serious quality warnings, that handoff is intentionally held back until you've seen and acknowledged them. See [Live Activation](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/live-activation.md) for the full handoff flow.
 
 #### The complete backtesting toolkit <a href="#the-complete-backtesting-toolkit" id="the-complete-backtesting-toolkit"></a>
 
@@ -154,6 +154,6 @@ Backtests run as background jobs with live progress updates, so long historical 
 
 #### See also <a href="#see-also" id="see-also"></a>
 
-- [Optimization](text-to-algo-t2a/optimization.md) — search a strategy's settings for better-performing combinations, with the same overfitting scrutiny.
-- [Paper Trading](text-to-algo-t2a/paper-trading.md) — validate a backtested strategy live, against real-time data, with zero real risk.
-- [Live Activation](text-to-algo-t2a/live-activation.md) — turn a validated backtest into a real, running order.
+- [Optimization](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/optimization.md) — search a strategy's settings for better-performing combinations, with the same overfitting scrutiny.
+- [Paper Trading](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/paper-trading.md) — validate a backtested strategy live, against real-time data, with zero real risk.
+- [Live Activation](https://igniz.gitbook.io/igniz-docs/text-to-algo-t2a/live-activation.md) — turn a validated backtest into a real, running order.
